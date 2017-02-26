@@ -111,10 +111,3 @@ p {
 .sidebyside {
 	display: inline-block;
 }
-
-.leftalign {
-	float:left;
-}
-.leftmargin {
-	margin-left: 10px;
-}
