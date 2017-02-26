@@ -1,0 +1,64 @@
+/*for index styled assign*/
+html {
+	font-size: 100%;
+}
+
+#container {
+  width: 100%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+body {
+  background-color: #E9FDFF;
+  }
+
+#left {
+	width:300px;
+	float:left;
+	border-right: 1px double;
+	border-color: #E6B393;
+	margin-right: 10px;
+}
+
+#section {
+	margin-left: 300px;
+	border-top: 1px dashed;
+	border-color: #E6B393;
+}
+
+#description {
+	width:200px;
+	margin-left: 300px;
+}
+
+#nav {
+  padding: 0;
+  list-style-type: none;
+}
+#nav li {
+  margin: 0;
+  padding: 10px;
+}
+#nav a:link, #nav a:visited {
+  display: block;
+  text-decoration: none;
+  color: #0A6369;
+  font-weight: 400;
+  background-color: #59CBCF;
+  font-family: 'Muli', Helvetica, sans-serif;
+  text-align: center;
+  padding: 6px;
+}
+
+
+
+#footer {
+    color: #5E3F3A;
+		font-family: 'Lora', "Times New Roman", serif;
+    font-size: 0.8em;
+		font-style: italic;
+		clear: both;
+		background-color: #E6B393;
+}
