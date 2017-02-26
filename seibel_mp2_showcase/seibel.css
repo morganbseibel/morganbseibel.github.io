@@ -67,7 +67,7 @@ h1 {
 	  text-align: left;
 		margin-left: 10px;
 }
-h1 .h1color {
+.h2color {
 	color: #C05A1A;
 }
 
@@ -110,4 +110,11 @@ p {
 }
 .sidebyside {
 	display: inline-block;
+}
+
+.leftalign {
+	float:left;
+}
+.leftmargin {
+	margin-left: 10px;
 }
