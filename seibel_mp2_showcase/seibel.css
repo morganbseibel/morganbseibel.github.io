@@ -17,10 +17,13 @@ body {
 
 #left {
 	width:300px;
+	height:100vh;
 	float:left;
 	margin-right: 10px;
 	border-right-style: double;
 	border-right-width:3px;
+	background-image: url(sunrise.jpg);
+	background-repeat: no-repeat;
 	border-color: #E6B393;
 }
 
