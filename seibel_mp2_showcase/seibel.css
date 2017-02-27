@@ -89,6 +89,20 @@ p {
 	font-family: 'Droid Serif', "Times New Roman", sans-serif;
 }
 
+.list {
+	color: #C05A1A;
+}
+
+li a {
+	text-decoration: none;
+	font-family: 'Droid Serif', "Times New Roman", sans-serif;
+	color: #0A6369;
+}
+li a:hover, a:active {
+	text-decoration: none;
+	font-family: 'Droid Serif', "Times New Roman", sans-serif;
+	color: #C05A1A;
+}
 
 #footer {
     color: #5E3F3A;
