@@ -51,9 +51,9 @@ body {
   color: #0A6369;
   font-weight: 400;
   background-color: #59CBCF;
-  font-family: 'Muli', Helvetica, sans-serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
   text-align: center;
-  padding: 6px;
+  padding: 10px;
 }
 #nav a:hover, a:active {
     background-color: #E6B393;
