@@ -128,3 +128,13 @@ li a:hover, a:active {
 .sidebyside {
 	display: inline-block;
 }
+
+/*
+.imgtwo {
+	margin-left: 10px;
+	width: 300px;
+	height: auto;
+	border: 1px solid black;
+	float: right;
+}
+*/
