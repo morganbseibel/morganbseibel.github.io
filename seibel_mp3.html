@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Morgan Seibel's CSS3 and Form</title>
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Muli:600,600i,800,800i" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="seibelform.css"/>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js">
+
+function showMessage() {
+  alert("Hello" + document.getElementById("firstname").value + ". Welcome to Morgan's first form.");
+}
+function message() {
+  alert("Hello! Welcome to Morgan's first form.");
+}
+
+
+
+</script>
+</head>
+<body>
+    <form name="testForm" action="assignments.html" method="get">
+        <h1>Morgan Seibel's Form</h1>
+<td><p>First Name:</p>
+          <input type="textfield" id="firstname"/>
+          <input type="button" value="Submit" onclick="showMessage()";/>
+
+<button onlick="message()">Submit</button>
+
+        <p><label for="level">Checkbox:</label>
+        <input type="checkbox" required="required" name="level"  id="level" value="checked" /></p>
+
+        <p><label for="radio">Radio Button:</label><br />
+        <input type="radio" required="required" name="radio1" value="Choice 1" id="radio" /> Choice 1<br />
+        <input type="radio" required="required" name="radio1" value="Choice 2" /> Choice 2</p>
+
+        <p><label for="list">List Menu:</label>
+            <select name="list" id="list">
+                <option value="firstOption">First Option</option>
+                <option value="secondOption">Second Option</option>
+                <option value="thirdOption">Third Option</option>
+                <option value="fourthOption">Fourth Option</option>
+            </select>
+        </p>
+
+        <p><button type="submit">Submit</button></p>
+
+    </form>
+</body>
+</html>

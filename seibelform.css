@@ -1,0 +1,67 @@
+html {
+	font-size: 100%;
+}
+
+#container {
+  width: 85%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+body {
+  background-color: #FFE3DC;
+	background: url(marigold.jpg) repeat;
+  }
+
+	h1 {
+	  font-family: 'Muli', Helvetica, sans-serif;
+	  font-weight:800;
+	  font-size: 2.25rem;
+	  color: #FCEB53;
+	  text-align: center;
+	}
+	p {
+	  color: #FCEB53;
+	  font-family: 'Lora', "Times New Roman", serif;
+	  font-size: 1rem;
+	  line-height: 1.5rem; /*this is like leading*/
+	  font-weight: normal;
+	  font-style: normal;
+		margin-bottom: 0;
+	}
+
+	#opacity {
+		margin-left: auto;
+		margin-right: auto;
+width: 400px;
+height: 300px;
+background: rgba(197, 73, 45, 0.7);
+border: 2px solid #FCEB53;
+padding: 40px;
+border-radius: 55px;
+box-shadow: 10px 10px 5px black;
+
+}
+#transform {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Muli', Helvetica, sans-serif;
+	color: #FFE3DC;
+	width: 200px;
+    height: 100px;
+    /* Rotate div */
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#footer {
+    color: #FCEB53;
+		font-family: 'Lora', "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid #FCEB53;
+		font-style: italic;
+		margin-top: 25vh;
+}
