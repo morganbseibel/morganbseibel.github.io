@@ -13,32 +13,8 @@ html {
 body {
   background-color: #FFE3DC;
   }
-	.caption {
-	    color: black;
-	    font-family: 'Lora', "Times New Roman", serif;
-	    font-style: italic;
-	    font-size: 0.8em;
-	    margin-top: 0;
-	    text-align: left;
-	}
 
-p {
-  color: black;
-  font-family: 'Lora', "Times New Roman", serif;
-  font-size: 1rem;
-  line-height: 1.5rem; /*this is like leading*/
-  font-weight: normal;
-  font-style: normal;
-	margin-bottom: 0;
-}
-ul {
-  color: black;
-  font-family: 'Lora', "Times New Roman", serif;
-  font-size: 1rem;
-  line-height: 2rem; /*this is like leading*/
-  font-weight: normal;
-  font-style: normal;
-}
+
 h1 {
   font-family: 'Muli', Helvetica, sans-serif;
   font-weight:800;
@@ -53,54 +29,6 @@ h2 {
   color: #C5492D;
   text-align: left;
   font-style: normal;
-}
-h3 {
-  color: #C5492D;
-  font-family: 'Muli', Helvetica, sans-serif;
-  font-weight: 400;
-  text-align: left;
-  font-size: 1.4rem;
-  font-style: normal;
-}
-
-.italic {
-	font-style: italic;
-}
-
-img {
-  border: none;
-}
-#nav {
-  padding: 0;
-  list-style-type: none;
-}
-#nav li {
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid #FFE3DC;
-}
-
-#nav a:link, #nav a:visited {
-  display: block;
-  text-decoration: none;
-  color: #5E3F3A;
-  font-weight: 400;
-  background-color: #FF6651;
-  font-family: 'Muli', Helvetica, sans-serif;
-  text-align: center;
-  padding: 6px;
-}
-#nav a:hover, a:active {
-    background-color: #C5492D;
-}
-
-a {
-  color: #5E3F3A;
-  text-decoration: none;
-  font-weight: 700;
-}
-a:hover, a:active {
-  color: #C5492D;
 }
 
 #footer {
