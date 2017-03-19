@@ -9,6 +9,25 @@
 		content="text/html;charset=utf-8" />
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Muli:600,600i,800,800i" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="styleseibel.css"/>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
 
 </head>
 <body>
@@ -16,7 +35,7 @@
   <h1>Morgan Seibel's Mini Project 4: HTML5 Media</h1>
 
 <h2>Audio</h2>
-  <audio controls preload="none">
+  <audio controls>
 		<source src="media/Leveebreaks.ogg" type="audio/ogg"/>
 		<source src="media/Leveebreaks.mp3" type="audio/mp3"/>
 		<object type="application/x-shockwave-flash" data="player.swf?soundFile=media/Leveebreaks.mp3"><param name="movie" value="player.swf?soundFile=media/Leveebreaks.mp3"></object>
@@ -33,6 +52,19 @@
 
 <h2>YouTube Video</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eZbzbC9285I" frameborder="0" allowfullscreen></iframe>
+
+<h2>Image Slideshow</h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="media/mountains.JPG" style="width:100%">
+  <img class="mySlides" src="media/mountains2.JPG" style="width:100%">
+  <img class="mySlides" src="media/snow.jpg" style="width:100%">
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
 
 <p id="footer">Content copyright &copy; 2017 Morgan Seibel.</p>
   </div>
