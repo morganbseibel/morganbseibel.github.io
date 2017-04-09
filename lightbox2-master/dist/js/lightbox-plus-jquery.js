@@ -14,9 +14,8 @@
 
  // ajax here //
 $(document).ready(function(){
-    $("button.ajax").click(function(e){
-        e.preventDefault();
-        $("#ajaxTest").load("ajaxTest.html #ajaxContent");
+    $("button").click(function(){
+        $("#div1").load("demo_test.rtf");
     });
 });
 
