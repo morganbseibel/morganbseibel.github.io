@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>	Morgan Seibel's Mini Project 5</title>
+	<meta http-equiv="content-type"
+		content="text/html;charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Muli:600,600i,800,800i" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="style5.css"/>
+
+<script>
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+</script>
+
+</head>
+<body>
+  <div id="container">
+  <h1>Morgan Seibel's Mini Project 5: Javascript</h1>
+  <ul id="nav">
+	<li><a href="#">Percoidei</a>
+
+		<ul>
+			<li><a href="#">Remoras</a></li>
+			<li><a href="#">Tilefishes</a></li>
+			<li><a href="#">Bluefishes</a></li>
+			<li><a href="#">Tigerfishes</a></li>
+		</ul>
+	</li>
+
+	<li><a href="#">Anabantoidei</a>
+		<ul>
+			<li><a href="#">Climbing perches</a></li>
+			<li><a href="#">Labyrinthfishes</a></li>
+			<li><a href="#">Kissing gouramis</a></li>
+			<li><a href="#">Pike-heads</a></li>
+			<li><a href="#">Giant gouramis</a></li>
+		</ul>
+	</li>
+
+	<!-- etc. -->
+
+</ul>
+
+<h2>some more content</h2>
+
+
+<p id="footer">Content copyright &copy; 2017 Morgan Seibel.</p>
+  </div>
+  <!-- end container div -->
+</body>
+
+</html>
