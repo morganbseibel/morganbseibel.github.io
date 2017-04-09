@@ -14,8 +14,7 @@
 
  // ajax here //
  $(document).ready(function(){
-    $("button.ajax").click(function(e){
-        e.preventDefault();
+    $("button").click(function(){
         $("#ajaxTest").load("ajaxTest.html #ajaxContent");
     });
 });
