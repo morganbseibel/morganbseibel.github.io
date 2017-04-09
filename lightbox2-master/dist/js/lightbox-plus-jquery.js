@@ -15,7 +15,7 @@
  // ajax here //
 $(document).ready(function(){
     $("button").click(function(){
-        $("#div1").load("demo_test.rtf");
+        $("#div1").load("demo_test.pdf");
     });
 });
 
