@@ -12,6 +12,32 @@
  * Date: 2015-04-28T16:01Z
  */
 
+ // ajax here //
+ $(document).ready(function(){
+    $("button.ajax").click(function(e){
+        e.preventDefault();
+        $("#ajaxTest").load("ajaxTest.html #ajaxContent");
+    });
+});
+
+//end ajax//
+
+//dropdown//
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+//end dropdown//
+//
+
 (function( global, factory ) {
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
