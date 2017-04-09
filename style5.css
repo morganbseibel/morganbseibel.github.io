@@ -10,17 +10,12 @@ html {
   margin-bottom: 0;
   margin-left: auto;
 }
+
+/* basic styles */
 body {
   background-color: #FFE3DC;
   }
-	.caption {
-	    color: black;
-	    font-family: 'Lora', "Times New Roman", serif;
-	    font-style: italic;
-	    font-size: 0.8em;
-	    margin-top: 0;
-	    text-align: left;
-	}
+
 
 p {
   color: black;
@@ -63,6 +58,8 @@ h3 {
   font-style: normal;
 }
 
+/*more specific styles */
+
 .italic {
 	font-style: italic;
 }
@@ -70,6 +67,9 @@ h3 {
 img {
   border: none;
 }
+
+/*dropdown/nav styles */
+
 #nav {
   padding: 0;
   list-style-type: none;
@@ -78,17 +78,17 @@ img {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #FFE3DC;
-	margin-left: auto;
+	margin-left: auto; /*margin-left and -right centers nav bars */
 	margin-right: auto;
-	width: 250px;
+	width: 250px; /*width of nav bars/how long they are */
 }
 #nav li ul {
 	position: absolute;
 	width: 10em;
-	left: -999em;
+	left: -999em; /* takes dropdown out of view... */
 }
 #nav li:hover ul {
-	left: auto;
+	left: auto; /*brings dropdown back into view */
 }
 
 #nav a:link, #nav a:visited {
@@ -203,7 +203,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../images/loading.gif) no-repeat;
+  background: url(lightbox2-master/dist/images/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -234,7 +234,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../images/prev.png) left 48% no-repeat;
+  background: url(lightbox2-master/dist/images/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -252,7 +252,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../images/next.png) right 48% no-repeat;
+  background: url(lightbox2-master/dist/images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -320,7 +320,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../images/close.png) top right no-repeat;
+  background: url(lightbox2-master/dist/images/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

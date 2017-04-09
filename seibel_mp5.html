@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Muli:600,600i,800,800i" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="style5.css"/>
 
+<!-- dropdown script -->
 <script>
 sfHover = function() {
 	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
@@ -24,6 +25,16 @@ sfHover = function() {
 }
 if (window.attachEvent) window.attachEvent("onload", sfHover);
 
+</script>
+<!-- ajax script -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button.ajax").click(function(e){
+        e.preventDefault();
+        $("#ajaxTest").load("ajaxTest.html #ajaxContent");
+    });
+});
 </script>
 
 </head>
@@ -63,6 +74,7 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 <p id="footer">Content copyright &copy; 2017 Morgan Seibel.</p>
   </div>
   <!-- end container div -->
+  <!-- lightbox script -->
   <script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
 
 </body>
