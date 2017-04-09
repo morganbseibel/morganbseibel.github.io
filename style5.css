@@ -29,7 +29,7 @@ p {
   line-height: 1.5rem; /*this is like leading*/
   font-weight: normal;
   font-style: normal;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 ul {
   color: black;
@@ -125,7 +125,7 @@ a:hover, a:active {
 /*lightbox below*/
 
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(lightbox2-master/dist/images/close.png) url(lightbox2-master/dist/images/loading.gif) url(lightbox2-master/dist/images/prev.png) url(lightbox2-master/dist/images/next.png);
   display: none;
 }
 
