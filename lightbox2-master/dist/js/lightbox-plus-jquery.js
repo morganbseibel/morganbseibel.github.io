@@ -13,11 +13,18 @@
  */
 
  // ajax here //
+<<<<<<< HEAD
 $(document).ready(function(){
    $("button.ajax").click(function(e){
        e.preventDefault();
        $("#ajaxTest").load("ajaxTest.html #ajaxContent");
    });
+=======
+ $(document).ready(function(){
+    $("button").click(function(){
+        $("#ajaxTest").load("ajaxTest.html #ajaxContent");
+    });
+>>>>>>> parent of 0d7dfdb... deleted test
 });
 
 //end ajax//
