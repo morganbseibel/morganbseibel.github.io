@@ -50,3 +50,26 @@ body {
 	  font-size: 1.4rem;
 	  font-style: normal;
 	}
+	#nav {
+	  padding: 0;
+	  list-style-type: none;
+	}
+	#nav li {
+	  margin: 0;
+	  padding: 0;
+	  border-bottom: none;
+		display: inline;
+	}
+
+	#nav a:link, #nav a:visited {
+	  display: block;
+	  text-decoration: none;
+	  color: #5E3F3A;
+	  font-weight: 400;
+	  background-color: #FF6651;
+	  font-family: 'Muli', Helvetica, sans-serif;
+	  text-align: center;
+	  padding: 6px;
+	}
+	#nav a:hover, a:active {
+	}
