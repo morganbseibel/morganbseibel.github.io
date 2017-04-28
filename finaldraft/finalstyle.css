@@ -1,0 +1,36 @@
+html {
+	font-size: 100%;
+}
+
+#container {
+  width: 95%;
+}
+
+body {
+  background-color: #f1f1f2;
+  }
+
+	p {
+	  color: black;
+	  font-family: 'Muli', Helvetica, sans-serif;
+	  font-size: 1rem;
+	  line-height: 1.5rem; /*this is like leading*/
+	  font-weight: normal;
+	  font-style: normal;
+		margin-bottom: 0;
+	}
+	ul {
+	  color: black;
+		font-family: 'Muli', Helvetica, sans-serif;
+	  font-size: 1rem;
+	  line-height: 2rem; /*this is like leading*/
+	  font-weight: normal;
+	  font-style: normal;
+	}
+	h1 {
+	  font-family: 'Playfair Display', "Times New roman", serif;
+	  font-weight:700;
+	  font-size: 3rem;
+	  color: #a12253;
+	  text-align: center;
+	}
