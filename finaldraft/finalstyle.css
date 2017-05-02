@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #f1f1f2;
+  background-color: #f1f1f2; /*grey*/
   }
 
 	p {
@@ -31,7 +31,7 @@ body {
 	  font-family: 'Playfair Display', "Times New Roman", serif;
 	  font-weight:700;
 	  font-size: 3rem;
-	  color: #a12253;
+	  color: #a12253; /*dark pink*/
 	  text-align: center;
 	}
 	h2 {
@@ -53,6 +53,7 @@ body {
 	#nav {
 	  padding: 0;
 	  list-style-type: none;
+		text-align: center;
 	}
 	#nav li {
 	  margin: 0;
@@ -60,16 +61,16 @@ body {
 	  border-bottom: none;
 		display: inline;
 	}
+	#nav a {
+		text-decoration: none; /*no underline*/
+	}
 
-	#nav a:link, #nav a:visited {
-	  display: block;
-	  text-decoration: none;
-	  color: #5E3F3A;
-	  font-weight: 400;
-	  background-color: #FF6651;
-	  font-family: 'Muli', Helvetica, sans-serif;
-	  text-align: center;
-	  padding: 6px;
-	}
-	#nav a:hover, a:active {
-	}
+	/*put rest of nav here*/
+
+#footer {
+	color: #a12253;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 0.8em;
+	border-top: 1px dotted #a12253;;
+	font-style: italic;
+}
