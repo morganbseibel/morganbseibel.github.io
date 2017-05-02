@@ -108,7 +108,6 @@ header, article, aside, footer {
   padding: 10px;
 }
 article {
- /*making things look centered now */
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
@@ -145,6 +144,11 @@ header {
     .first {
         margin-top: 0;
     }
-}
+
+		/*other styles */
+		.portfoliosize1 {
+			width: 25%;
+			margin-right: 15px;
+		}
 
 } /*end 600px media query bracket */
