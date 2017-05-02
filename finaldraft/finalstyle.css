@@ -90,6 +90,13 @@ body {
 .italic {
 	font-style: italic;
 }
+.smallh3 {
+	font-style: italic;
+	font-size: 1.1rem;
+}
+.centerimg {
+	 margin: 0 auto; /*center resume, off center right now... */
+}
 
 /*flexbox*/
 .wrapper {
@@ -101,7 +108,7 @@ header, article, aside, footer {
   padding: 10px;
 }
 article {
-	margin-left: 20%;
+ /*making things look centered now */
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
@@ -111,11 +118,13 @@ header {
 	padding: 0;
 }
 
-/*These styles activate when the page is larger than 800px wide*/
+/*These styles activate when the page is larger than 600px wide*/
 
 @media (min-width:600px) {
+	/*about me image and paragraphs flex box styling */
 	article {
 		flex: 3 0px;
+		margin-left: 20%;
 	}
 	article {
         order: 1;
@@ -129,7 +138,8 @@ header {
     }
 
     .story {
-        width: 45%;
+        width: 40%;
+				margin-left: 10px; /*space between img of me and ps */
     }
 
     .first {
