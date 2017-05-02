@@ -18,6 +18,7 @@ body {
 	  font-weight: normal;
 	  font-style: normal;
 		margin-bottom: 0;
+		max-width: 35em; /*so text doesn't span across whole browser */
 	}
 	ul {
 	  color: black;
@@ -33,6 +34,7 @@ body {
 	  font-size: 3rem;
 	  color: #a12253; /*dark pink*/
 	  text-align: center;
+		margin-top: 10px;
 	}
 	h2 {
 	  font-family: 'Montserrat', Helvetica, sans-serif;
@@ -52,8 +54,13 @@ body {
 	}
 	#nav {
 	  padding: 0;
+		margin-bottom: 30px;
 	  list-style-type: none;
 		text-align: center;
+	}
+	#nav ul {
+		margin: 0;
+		padding: 0;
 	}
 	#nav li {
 	  margin: 0;
@@ -76,6 +83,27 @@ body {
 	color: #a12253;
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	font-size: 0.8em;
-	border-top: 1px dotted #a12253;;
+	border-top: 1px dotted #a12253;
 	font-style: italic;
+}
+
+.italic {
+	font-style: italic;
+}
+
+/*flexbox*/
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+header, article, aside, footer {
+  flex: 1 100%;
+  padding: 10px;
+}
+article {
+	margin-left: 20%;
+}
+header {
+	margin: 0;
+	padding: 0;
 }
