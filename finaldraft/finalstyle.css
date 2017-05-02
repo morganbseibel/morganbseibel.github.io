@@ -57,12 +57,17 @@ body {
 	}
 	#nav li {
 	  margin: 0;
+		margin-right: 30px;
 	  padding: 0;
 	  border-bottom: none;
 		display: inline;
+		font-family: 'Montserrat', Helvetica, sans-serif;
+		font-size: 1.4rem;
 	}
 	#nav a {
 		text-decoration: none; /*no underline*/
+		color: #a12253;
+
 	}
 
 	/*put rest of nav here*/
