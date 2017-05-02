@@ -102,8 +102,39 @@ header, article, aside, footer {
 }
 article {
 	margin-left: 20%;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
 }
 header {
 	margin: 0;
 	padding: 0;
 }
+
+/*These styles activate when the page is larger than 800px wide*/
+
+@media (min-width:600px) {
+	article {
+		flex: 3 0px;
+	}
+	article {
+        order: 1;
+    }
+		footer {
+			order: 2;
+		}
+
+		.image {
+        width: 45%;
+    }
+
+    .story {
+        width: 45%;
+    }
+
+    .first {
+        margin-top: 0;
+    }
+}
+
+} /*end 600px media query bracket */
