@@ -94,6 +94,9 @@ body {
 	font-style: italic;
 	font-size: 1.1rem;
 }
+.smallheading {
+	font-size: 1.1rem;
+}
 .centerimg {
 	 margin: 0 auto; /*center resume, off center right now... */
 }
@@ -333,7 +336,7 @@ header {
 .demo-gallery.dark > ul > li a {
   border: 3px solid #04070a;
 }
-
+/* end lightbox image gallery w thumbnails styles */
 
 /*These styles activate when the page is larger than 600px wide*/
 
